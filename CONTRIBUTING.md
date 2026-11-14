@@ -11,7 +11,7 @@ Thanks for helping make Kutuhal 3D better.
 
 ## Dev loop
 ```bash
-git clone https://github.com/<your-github-username>/kutuhal-3d && cd kutuhal-3d
+git clone https://github.com/swapnilbhange/kutuhal-3d && cd kutuhal-3d
 cp -r plugins/kutuhal-3d/skills/make-3d-short/kit /tmp/studio && cd /tmp/studio
 python3 tools/doctor.py --install
 cp -r examples/planning-fallacy projects/
@@ -24,7 +24,7 @@ Test the plugin in Claude Code without installing: `claude --plugin-dir plugins/
 - Every SFX/music function must return finite, non-silent audio – run `python3 audio/sfx.py --demo` and `python3 audio/music.py --mood <m> --dur 6 --out /tmp/m.wav`.
 - Syntax-check modules: `node --input-type=module --check < file.js`.
 - No third-party samples, copyrighted characters, logos or songs.
-- Update `CHANGELOG.md`; bump versions in `plugin.json` **and** `marketplace.json`; run `./scripts/build-dist.sh`.
+- Update `CHANGELOG.md`; bump versions in `plugin.json` **and** `marketplace.json`; run `bash scripts/build-dist.sh`.
 - Skill names must not contain "claude" or "anthropic".
 
 ## Pull requests

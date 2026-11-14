@@ -55,4 +55,4 @@ Selected per shot with `"set": "street"` in `shots.json`. Reach it in `draw` wit
 `config.json` → `aspect` (`9:16` / `16:9`), `resolution` (`720p`…`2160p`), `fps`, `crf` (quality; lower is better), `tail` (seconds of silence after the last word), `fadeOut`.
 
 ## Changing the plugin itself
-Edit the skills in `plugins/kutuhal-3d/skills/*/SKILL.md` (they are Markdown instructions for Claude). Re-package with `./scripts/build-dist.sh`, re-upload / `git push`.
+Edit the skills in `plugins/kutuhal-3d/skills/*/SKILL.md` (they are Markdown instructions for Claude). Re-package with `bash scripts/build-dist.sh`, re-upload / `git push`.

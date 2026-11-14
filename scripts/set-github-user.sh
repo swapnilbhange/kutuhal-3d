@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Replace the <your-github-username> placeholder everywhere. Usage: ./scripts/set-github-user.sh YOURNAME
+# Replace the <your-github-username> placeholder everywhere. Usage: bash scripts/set-github-user.sh YOURNAME
 set -euo pipefail
 [ $# -eq 1 ] || { echo "usage: $0 <github-username>"; exit 2; }
 cd "$(dirname "$0")/.."

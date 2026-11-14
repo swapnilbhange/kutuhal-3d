@@ -2,7 +2,7 @@
 # Copy (or symlink) the five Kutuhal 3D skills into the skills folder of another AI coding tool.
 # The skills must stay SIDE BY SIDE (the stage skills refer to ../make-3d-short/), so this installs all five together.
 #
-#   ./scripts/install-skills.sh <tool> [--scope user|project] [--dest DIR] [--link] [--dry-run]
+#   bash scripts/install-skills.sh <tool> [--scope user|project] [--dest DIR] [--link] [--dry-run]
 #   tools: claude | codex | chatgpt | gemini | antigravity | generic
 set -euo pipefail
 SRC="$(cd "$(dirname "$0")/.." && pwd)/plugins/kutuhal-3d/skills"

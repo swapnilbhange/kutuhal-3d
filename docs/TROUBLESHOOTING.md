@@ -5,6 +5,7 @@ Run `python3 tools/doctor.py` first – it checks Python, ffmpeg, Node, packages
 ## Plugin / Claude side
 | Symptom | Cause | Fix |
 |---|---|---|
+| `Permission denied` running `scripts/*.sh` | Unzipping lost the executable bit (common on Windows/macOS Finder) | Run it with bash: `bash scripts/install-skills.sh codex`, or `chmod +x scripts/*.sh` |
 | "Only .zip files are accepted" / "Upload failed" when uploading `.plugin` | Some app versions only accept `.zip` | Upload `dist/kutuhal-3d.zip` (same content) |
 | Plugin uploaded but skills not listed | App needs a refresh | Fully restart the app, open a **new** chat, type `/` |
 | `/plugin marketplace add …` says repo not found | Repo is private or name wrong | Make the repo public (or authenticate git), check `owner/repo` |

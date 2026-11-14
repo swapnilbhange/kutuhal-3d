@@ -79,7 +79,7 @@ Pick **one**:
 <details><summary><b>Claude Code (terminal / IDE) – from GitHub</b></summary>
 
 ```text
-/plugin marketplace add <your-github-username>/kutuhal-3d
+/plugin marketplace add swapnilbhange/kutuhal-3d
 /plugin install kutuhal-3d@kutuhal-plugins
 ```
 </details>
@@ -162,9 +162,9 @@ The skills use the open *Agent Skills* folder format, so besides Claude they can
 |---|---|---|
 | Claude Code (CLI, desktop app, IDE) | ✅ tested | `/plugin marketplace add <you>/kutuhal-3d` → `/plugin install kutuhal-3d@kutuhal-plugins` |
 | Claude desktop / Cowork / claude.ai | ✅ | Customize → Plugins → Add → Upload plugin (`dist/kutuhal-3d.plugin`) |
-| OpenAI Codex CLI / IDE, ChatGPT desktop app | ✅ should work | `./scripts/install-skills.sh codex` |
-| Gemini CLI | ✅ should work | `gemini skills install plugins/kutuhal-3d/skills` or `./scripts/install-skills.sh gemini` |
-| Google Antigravity | ✅ should work | `./scripts/install-skills.sh antigravity` |
+| OpenAI Codex CLI / IDE, ChatGPT desktop app | ✅ should work | `bash scripts/install-skills.sh codex` |
+| Gemini CLI | ✅ should work | `gemini skills install plugins/kutuhal-3d/skills` or `bash scripts/install-skills.sh gemini` |
+| Google Antigravity | ✅ should work | `bash scripts/install-skills.sh antigravity` |
 | ChatGPT web/mobile chat, Gemini app (chat), Grok | ❌ / unverified | can't run the pipeline in a chat window – see the guide |
 
 *Tested = installed and validated here. "Should work" = follows the vendor's documented skills format and the installer places the files correctly, but I could not run those products. Any agent needs a shell, Chrome, ffmpeg, Python, Node and ideally image viewing.*

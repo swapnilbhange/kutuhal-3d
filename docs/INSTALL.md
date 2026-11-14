@@ -52,7 +52,7 @@ Upload the newer file again (or remove the plugin under Customize → Plugins an
 After you publish the repo (see section 5):
 
 ```text
-/plugin marketplace add <your-github-username>/kutuhal-3d
+/plugin marketplace add swapnilbhange/kutuhal-3d
 /plugin install kutuhal-3d@kutuhal-plugins
 ```
 
@@ -82,7 +82,7 @@ Commit this to your project's `.claude/settings.json`; teammates are prompted to
 ```json
 {
   "extraKnownMarketplaces": {
-    "kutuhal-plugins": { "source": { "source": "github", "repo": "<your-github-username>/kutuhal-3d" } }
+    "kutuhal-plugins": { "source": { "source": "github", "repo": "swapnilbhange/kutuhal-3d" } }
   },
   "enabledPlugins": { "kutuhal-3d@kutuhal-plugins": true }
 }
@@ -101,7 +101,7 @@ Skills are namespaced by the plugin name: `/kutuhal-3d:make-3d-short`, `/kutuhal
 
 ## 3. Use only the skills, no plugin system (also for Codex / ChatGPT, Gemini CLI, Antigravity)
 
-Run `./scripts/install-skills.sh claude` (user-wide `~/.claude/skills`, or add `--scope project`). Skills then run un-namespaced (`/make-3d-short`). The plugin route is preferred in Claude because it keeps the kit and references together.
+Run `bash scripts/install-skills.sh claude` (user-wide `~/.claude/skills`, or add `--scope project`). Skills then run un-namespaced (`/make-3d-short`). The plugin route is preferred in Claude because it keeps the kit and references together.
 
 The same script installs the skills for other AI tools – `codex`, `chatgpt`, `gemini`, `antigravity`, `generic` – see **[OTHER-AI-TOOLS.md](OTHER-AI-TOOLS.md)** for each tool's folder, commands and caveats.
 
@@ -168,18 +168,18 @@ python3 audio/mix.py --project projects/planning-fallacy --video projects/planni
 
 ```bash
 cd kutuhal-3d                                  # the repo root of this package
-# 1. replace placeholders: search for <your-github-username> in README.md and docs/
+# 1. replace placeholders: search for swapnilbhange in README.md and docs/
 git init && git add -A && git commit -m "Kutuhal 3D 1.0.0"
 gh repo create kutuhal-3d --public --source=. --push      # or create it on github.com and `git remote add origin … && git push -u origin main`
 ```
 Then anyone can run, in Claude Code:
 ```text
-/plugin marketplace add <your-github-username>/kutuhal-3d
+/plugin marketplace add swapnilbhange/kutuhal-3d
 /plugin install kutuhal-3d@kutuhal-plugins
 ```
 and anyone else can download the repo as a ZIP (or use the files in `dist/`) and upload it in the Claude app.
 
-Release checklist: bump `version` in `plugins/kutuhal-3d/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, add a line to `CHANGELOG.md`, rebuild `dist/` (`./scripts/build-dist.sh`), tag `v1.x.y`.
+Release checklist: bump `version` in `plugins/kutuhal-3d/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, add a line to `CHANGELOG.md`, rebuild `dist/` (`bash scripts/build-dist.sh`), tag `v1.x.y`.
 
 ---
 

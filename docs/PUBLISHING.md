@@ -1,7 +1,7 @@
 # Publishing Kutuhal 3D on GitHub
 
 1. **Unzip** the package; the folder `kutuhal-3d/` is the repository root.
-2. **Set your username:** `./scripts/set-github-user.sh YOURNAME` (replaces `<your-github-username>` in the README and docs).
+2. **Set your username:** `bash scripts/set-github-user.sh YOURNAME` (replaces `<your-github-username>` in the README and docs).
 3. **Set your git identity** (the package has no `.git`, so nothing to amend):
    ```bash
    cd kutuhal-3d
@@ -25,4 +25,4 @@
    ```
 8. **Size note:** `samples/planning_fallacy_1080p.mp4` is ≈ 35 MB (under GitHub's 100 MB file limit). Delete it and keep the 540p preview if you want a lighter repo.
 
-Later releases: bump `version` in `plugins/kutuhal-3d/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, update `CHANGELOG.md`, run `./scripts/build-dist.sh`, tag, and attach the new `dist/` files.
+Later releases: bump `version` in `plugins/kutuhal-3d/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, update `CHANGELOG.md`, run `bash scripts/build-dist.sh`, tag, and attach the new `dist/` files.

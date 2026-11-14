@@ -27,19 +27,19 @@ Kutuhal 3D's brain is five **skills** – folders with a `SKILL.md` – and a bu
 From the repo folder (macOS / Linux / WSL / Git Bash):
 
 ```bash
-./scripts/install-skills.sh <claude|codex|chatgpt|gemini|antigravity|generic> [--scope user|project] [--link] [--dest DIR] [--dry-run]
+bash scripts/install-skills.sh <claude|codex|chatgpt|gemini|antigravity|generic> [--scope user|project] [--link] [--dest DIR] [--dry-run]
 ```
 
 | Command | Installs the five skills into |
 |---|---|
-| `./scripts/install-skills.sh claude` | `~/.claude/skills` |
-| `./scripts/install-skills.sh claude --scope project` | `./.claude/skills` |
-| `./scripts/install-skills.sh codex` (or `chatgpt`, `generic`) | `~/.agents/skills` |
-| `./scripts/install-skills.sh codex --scope project` | `./.agents/skills` |
-| `./scripts/install-skills.sh gemini` | `~/.gemini/skills` |
-| `./scripts/install-skills.sh gemini --scope project` | `./.gemini/skills` |
-| `./scripts/install-skills.sh antigravity` | `~/.gemini/antigravity/skills` |
-| `./scripts/install-skills.sh antigravity --scope project` | `./.agents/skills` |
+| `bash scripts/install-skills.sh claude` | `~/.claude/skills` |
+| `bash scripts/install-skills.sh claude --scope project` | `./.claude/skills` |
+| `bash scripts/install-skills.sh codex` (or `chatgpt`, `generic`) | `~/.agents/skills` |
+| `bash scripts/install-skills.sh codex --scope project` | `./.agents/skills` |
+| `bash scripts/install-skills.sh gemini` | `~/.gemini/skills` |
+| `bash scripts/install-skills.sh gemini --scope project` | `./.gemini/skills` |
+| `bash scripts/install-skills.sh antigravity` | `~/.gemini/antigravity/skills` |
+| `bash scripts/install-skills.sh antigravity --scope project` | `./.agents/skills` |
 
 `--link` creates symlinks instead of copies (handy while editing the skills), `--dry-run` only prints what would happen. **Always install all five skills together** – the stage skills load `../make-3d-short/references/…`, so the folders must be siblings. After installing, restart the tool or open a new session.
 
@@ -54,11 +54,11 @@ Copy-Item -Recurse -Force plugins\kutuhal-3d\skills\* $dest
 
 **Preferred – as a plugin** (everything stays together and updates with `/plugin marketplace update`):
 ```text
-/plugin marketplace add <your-github-username>/kutuhal-3d        # or a local path to the repo folder
+/plugin marketplace add swapnilbhange/kutuhal-3d        # or a local path to the repo folder
 /plugin install kutuhal-3d@kutuhal-plugins
 ```
 Try it without installing: `claude --plugin-dir /path/to/kutuhal-3d/plugins/kutuhal-3d`.
-**Alternative – as plain skills:** `./scripts/install-skills.sh claude` (commands are then un-namespaced: `/make-3d-short`).
+**Alternative – as plain skills:** `bash scripts/install-skills.sh claude` (commands are then un-namespaced: `/make-3d-short`).
 In the **Claude desktop app chat / Cowork / claude.ai** use *Customize → Plugins → Add → Upload plugin* with `dist/kutuhal-3d.plugin` (or `.zip`). Details: [INSTALL.md](INSTALL.md).
 
 ## 4 · OpenAI Codex CLI, IDE extension and the ChatGPT desktop app
@@ -66,7 +66,7 @@ In the **Claude desktop app chat / Cowork / claude.ai** use *Customize → Plugi
 Skills are folders with `SKILL.md`; Codex scans `.agents/skills` from your working directory up to the repo root, plus `~/.agents/skills` for your user.
 
 ```bash
-./scripts/install-skills.sh codex                 # user-wide  → ~/.agents/skills
+bash scripts/install-skills.sh codex                 # user-wide  → ~/.agents/skills
 # or per repo:
 cd my-videos && /path/to/kutuhal-3d/scripts/install-skills.sh codex --scope project
 ```
@@ -93,7 +93,7 @@ gemini skills install /path/to/kutuhal-3d/plugins/kutuhal-3d/skills --scope work
 # during development: symlink instead of copying
 gemini skills link /path/to/kutuhal-3d/plugins/kutuhal-3d/skills --scope workspace
 # or
-./scripts/install-skills.sh gemini
+bash scripts/install-skills.sh gemini
 ```
 Check with `gemini skills list` (or `/skills` in a session). Gemini loads each skill's name and description at session start and activates the full instructions on demand.
 Open the repo as your workspace to also get the included `GEMINI.md` (identical to `AGENTS.md`). The consumer **Gemini app** (web/phone) can't run the pipeline.
@@ -105,8 +105,8 @@ If `gemini skills install <dir>` installs only a single skill in your version, r
 Antigravity supports skills in two scopes: **workspace** `<workspace>/.agents/skills/` and **global** `~/.gemini/antigravity/skills/` (older builds and some guides use `.agent/skills/` – if the skills don't appear, try that spelling). It also reads `AGENTS.md` / `GEMINI.md` rules.
 
 ```bash
-./scripts/install-skills.sh antigravity                  # global
-./scripts/install-skills.sh antigravity --scope project  # this workspace (.agents/skills)
+bash scripts/install-skills.sh antigravity                  # global
+bash scripts/install-skills.sh antigravity --scope project  # this workspace (.agents/skills)
 ```
 Open your video folder as the workspace, start an agent task and say *"Make a 9:16 short from `script.txt`"*. Restart Antigravity if the skills don't show up. Antigravity can drive its own browser; Kutuhal 3D doesn't need it – it uses Chrome through the kit's `render.mjs`, so make sure Chrome/Chromium is installed (or `CHROME_PATH` is set).
 
