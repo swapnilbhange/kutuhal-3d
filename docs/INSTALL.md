@@ -58,7 +58,7 @@ After you publish the repo (see section 5):
 
 `kutuhal-plugins` is the marketplace name defined in `.claude-plugin/marketplace.json`; `kutuhal-3d` is the plugin. If the skills are not visible, restart Claude Code and check `/plugin`.
 
-Other git hosts: `/plugin marketplace add https://gitlab.com/<you>/kutuhal-3d.git`.
+Other git hosts: `/plugin marketplace add https://gitlab.com/swapnilbhange/kutuhal-3d.git`.
 
 > ✅ Verified: with the Claude Code CLI, `claude plugin validate` passes for the marketplace and the plugin, and `plugin marketplace add <repo folder>` followed by `plugin install kutuhal-3d@kutuhal-plugins` installs it (user scope, enabled).
 

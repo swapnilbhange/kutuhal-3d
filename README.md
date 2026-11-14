@@ -160,7 +160,7 @@ The skills use the open *Agent Skills* folder format, so besides Claude they can
 
 | Tool | Works? | Install |
 |---|---|---|
-| Claude Code (CLI, desktop app, IDE) | ✅ tested | `/plugin marketplace add <you>/kutuhal-3d` → `/plugin install kutuhal-3d@kutuhal-plugins` |
+| Claude Code (CLI, desktop app, IDE) | ✅ tested | `/plugin marketplace add swapnilbhange/kutuhal-3d` → `/plugin install kutuhal-3d@kutuhal-plugins` |
 | Claude desktop / Cowork / claude.ai | ✅ | Customize → Plugins → Add → Upload plugin (`dist/kutuhal-3d.plugin`) |
 | OpenAI Codex CLI / IDE, ChatGPT desktop app | ✅ should work | `bash scripts/install-skills.sh codex` |
 | Gemini CLI | ✅ should work | `gemini skills install plugins/kutuhal-3d/skills` or `bash scripts/install-skills.sh gemini` |

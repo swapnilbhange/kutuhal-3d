@@ -29,7 +29,7 @@ MIT licence – see `LICENSE`. Third-party notices are in the repository root.
 
 ## Install (Claude Code)
 ```text
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add swapnilbhange/kutuhal-3d
 /plugin install kutuhal-3d@kutuhal-plugins
 ```
 Claude desktop / Cowork / claude.ai: Customize → Plugins → Add → Upload plugin (`kutuhal-3d.plugin`, or the identical `.zip`).
