@@ -48,7 +48,7 @@ You give Claude a **script** (and optionally instructions such as *"9:16, 45 s, 
 
 ## Sample output
 
-**Video:** [`samples/planning_fallacy_1080p.mp4`](samples/planning_fallacy_1080p.mp4) (1080×1920, 30.4 s) · quick preview [`samples/planning_fallacy_540p_preview.mp4`](samples/planning_fallacy_540p_preview.mp4)
+**Video:** [`planning_fallacy_1080p.mp4`](https://github.com/swapnilbhange/kutuhal-3d/releases/download/v1.1.0/planning_fallacy_1080p.mp4) (1080×1920, 30.4 s, attached to the v1.1.0 release) · quick preview [`samples/planning_fallacy_540p_preview.mp4`](samples/planning_fallacy_540p_preview.mp4)
 
 | Hook | Counter | Title card |
 |:--:|:--:|:--:|

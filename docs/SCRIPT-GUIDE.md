@@ -70,4 +70,4 @@ STYLE: midnight
 ```
 
 ## Worked example
-`samples/script_planning_fallacy.txt` (65 words → 30.4 s video). The finished result is `samples/planning_fallacy_1080p.mp4`, and its plan is in `samples/example_plan/` (`script.json`, `shots.json`, `words.json`).
+`samples/script_planning_fallacy.txt` (65 words → 30.4 s video). The finished 1080p result is attached to the [v1.1.0 release](https://github.com/swapnilbhange/kutuhal-3d/releases/download/v1.1.0/planning_fallacy_1080p.mp4) (a 540p preview is in `samples/`), and its plan is in `samples/example_plan/` (`script.json`, `shots.json`, `words.json`).

@@ -23,6 +23,6 @@
    /plugin marketplace add YOURNAME/kutuhal-3d
    /plugin install kutuhal-3d@kutuhal-plugins
    ```
-8. **Size note:** `samples/planning_fallacy_1080p.mp4` is ≈ 35 MB (under GitHub's 100 MB file limit). Delete it and keep the 540p preview if you want a lighter repo.
+8. **Size note:** the repo must stay well under 50 MB compressed, or Anthropic's directory validator fails with "Repository too large". The 1080p sample (≈ 35 MB) therefore lives in the v1.1.0 release assets, not in git. Attach `planning_fallacy_1080p.mp4` to the release.
 
 Later releases: bump `version` in `plugins/kutuhal-3d/.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`, update `CHANGELOG.md`, run `bash scripts/build-dist.sh`, tag, and attach the new `dist/` files.
