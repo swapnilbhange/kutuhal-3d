@@ -1,0 +1,25 @@
+{
+  "title": "The Planning Fallacy",
+  "aspect": "9:16",
+  "resolution": "1080p",
+  "fps": 30,
+  "style": "midnight",
+  "voice": "hm_psi",
+  "captions": true,
+  "voiceover": "input/narration.wav",
+  "music": {
+    "enabled": true,
+    "gainDb": -20
+  },
+  "sfx": {
+    "enabled": true,
+    "gainDb": -14
+  },
+  "ambience": {
+    "gainDb": -26
+  },
+  "loudness": -14,
+  "crf": 20,
+  "tail": 1.6,
+  "fadeOut": 0.6
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kutuhal-3d-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Studio kit: script -> narrated 3D explainer Short (three.js scenes, offline TTS, generated music and SFX).",
+  "dependencies": { "puppeteer-core": "^25.17.0", "three": "^0.187.0" }
+}

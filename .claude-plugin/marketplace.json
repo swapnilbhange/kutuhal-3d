@@ -1,0 +1,19 @@
+{
+  "name": "kutuhal-plugins",
+  "owner": {
+    "name": "Swapnil Bhange"
+  },
+  "metadata": {
+    "description": "Kutuhal 3D: script-to-3D-explainer-Short studio for Claude."
+  },
+  "plugins": [
+    {
+      "name": "kutuhal-3d",
+      "source": "./plugins/kutuhal-3d",
+      "description": "Upload a script; Claude analyses it and produces narration, a stylised 3D video, music, SFX and captions as a finished MP4 (9:16 or 16:9).",
+      "version": "1.1.0",
+      "license": "MIT",
+      "keywords": ["video", "shorts", "explainer", "three.js", "tts"]
+    }
+  ]
+}

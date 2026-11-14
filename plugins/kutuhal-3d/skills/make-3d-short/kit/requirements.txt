@@ -1,0 +1,6 @@
+kokoro-onnx>=0.6.1
+pocketsphinx>=5.1.0
+soundfile
+scipy
+numpy
+pillow

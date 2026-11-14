@@ -1,0 +1,64 @@
+{
+ "units": [
+  {
+   "scene": 1,
+   "text": "How long will it take?",
+   "start": 0.2,
+   "end": 1.672
+  },
+  {
+   "scene": 1,
+   "text": "Two hours, tops.",
+   "start": 1.972,
+   "end": 3.295
+  },
+  {
+   "scene": 2,
+   "text": "So you plan your whole evening around it.",
+   "start": 4.295,
+   "end": 6.62
+  },
+  {
+   "scene": 2,
+   "text": "Then reality shows up, and two hours quietly becomes five.",
+   "start": 6.92,
+   "end": 10.696
+  },
+  {
+   "scene": 3,
+   "text": "This is the planning fallacy.",
+   "start": 11.696,
+   "end": 13.637
+  },
+  {
+   "scene": 3,
+   "text": "We picture the best case, and forget how long things really took before.",
+   "start": 13.937,
+   "end": 18.417
+  },
+  {
+   "scene": 4,
+   "text": "The fix?",
+   "start": 19.417,
+   "end": 20.207
+  },
+  {
+   "scene": 4,
+   "text": "Check your past.",
+   "start": 20.507,
+   "end": 21.659
+  },
+  {
+   "scene": 4,
+   "text": "See how long similar tasks actually took, then add a buffer.",
+   "start": 21.959,
+   "end": 25.927
+  },
+  {
+   "scene": 5,
+   "text": "Plan with history, not hope.",
+   "start": 26.927,
+   "end": 28.804
+  }
+ ]
+}

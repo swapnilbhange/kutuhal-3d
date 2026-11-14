@@ -1,0 +1,103 @@
+{
+ "voice": "hm_psi",
+ "lead": 0.2,
+ "pronounce": {},
+ "emph": [
+  "two",
+  "five",
+  "best",
+  "history",
+  "hope",
+  "buffer",
+  "fallacy"
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "speed": 1.0,
+   "gap": 1.0,
+   "pause": 0.3,
+   "notes": [
+    "[VISUAL: a student at a desk, late evening]"
+   ],
+   "units": [
+    {
+     "say": "How long will it take?",
+     "show": "How long will it take?"
+    },
+    {
+     "say": "Two hours, tops.",
+     "show": "Two hours, tops."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speed": 1.0,
+   "gap": 1.0,
+   "pause": 0.3,
+   "notes": [],
+   "units": [
+    {
+     "say": "So you plan your whole evening around it.",
+     "show": "So you plan your whole evening around it."
+    },
+    {
+     "say": "Then reality shows up, and two hours quietly becomes five.",
+     "show": "Then reality shows up, and two hours quietly becomes five."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speed": 1.0,
+   "gap": 1.0,
+   "pause": 0.3,
+   "notes": [],
+   "units": [
+    {
+     "say": "This is the planning fallacy.",
+     "show": "This is the planning fallacy."
+    },
+    {
+     "say": "We picture the best case, and forget how long things really took before.",
+     "show": "We picture the best case, and forget how long things really took before."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speed": 1.0,
+   "gap": 1.0,
+   "pause": 0.3,
+   "notes": [],
+   "units": [
+    {
+     "say": "The fix?",
+     "show": "The fix?"
+    },
+    {
+     "say": "Check your past.",
+     "show": "Check your past."
+    },
+    {
+     "say": "See how long similar tasks actually took, then add a buffer.",
+     "show": "See how long similar tasks actually took, then add a buffer."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speed": 1.0,
+   "gap": 0.0,
+   "pause": 0.3,
+   "notes": [],
+   "units": [
+    {
+     "say": "Plan with history, not hope.",
+     "show": "Plan with history, not hope."
+    }
+   ]
+  }
+ ]
+}

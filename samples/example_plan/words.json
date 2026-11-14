@@ -1,0 +1,488 @@
+{
+ "words": [
+  {
+   "w": "How",
+   "start": 0.2,
+   "end": 0.46,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "long",
+   "start": 0.47,
+   "end": 0.85,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "will",
+   "start": 0.86,
+   "end": 1.05,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "it",
+   "start": 1.06,
+   "end": 1.21,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "take?",
+   "start": 1.22,
+   "end": 1.672,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "Two",
+   "start": 1.972,
+   "end": 2.212,
+   "scene": 1,
+   "emph": true
+  },
+  {
+   "w": "hours,",
+   "start": 2.222,
+   "end": 2.652,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "tops.",
+   "start": 2.662,
+   "end": 3.295,
+   "scene": 1,
+   "emph": false
+  },
+  {
+   "w": "So",
+   "start": 4.295,
+   "end": 4.505,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "you",
+   "start": 4.515,
+   "end": 4.635,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "plan",
+   "start": 4.645,
+   "end": 4.955,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "your",
+   "start": 4.965,
+   "end": 5.075,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "whole",
+   "start": 5.085,
+   "end": 5.405,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "evening",
+   "start": 5.645,
+   "end": 5.995,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "around",
+   "start": 6.005,
+   "end": 6.605,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "it.",
+   "start": 6.605,
+   "end": 6.62,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "Then",
+   "start": 6.92,
+   "end": 7.17,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "reality",
+   "start": 7.18,
+   "end": 7.62,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "shows",
+   "start": 7.63,
+   "end": 7.97,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "up,",
+   "start": 7.98,
+   "end": 8.46,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "and",
+   "start": 8.47,
+   "end": 8.62,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "two",
+   "start": 8.63,
+   "end": 8.81,
+   "scene": 2,
+   "emph": true
+  },
+  {
+   "w": "hours",
+   "start": 8.82,
+   "end": 9.17,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "quietly",
+   "start": 9.18,
+   "end": 9.72,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "becomes",
+   "start": 9.73,
+   "end": 10.17,
+   "scene": 2,
+   "emph": false
+  },
+  {
+   "w": "five.",
+   "start": 10.18,
+   "end": 10.696,
+   "scene": 2,
+   "emph": true
+  },
+  {
+   "w": "This",
+   "start": 11.696,
+   "end": 12.036,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "is",
+   "start": 12.046,
+   "end": 12.336,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "the",
+   "start": 12.346,
+   "end": 12.516,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "planning",
+   "start": 12.526,
+   "end": 12.986,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "fallacy.",
+   "start": 12.996,
+   "end": 13.637,
+   "scene": 3,
+   "emph": true
+  },
+  {
+   "w": "We",
+   "start": 13.937,
+   "end": 14.037,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "picture",
+   "start": 14.047,
+   "end": 14.447,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "the",
+   "start": 14.457,
+   "end": 14.557,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "best",
+   "start": 14.567,
+   "end": 14.887,
+   "scene": 3,
+   "emph": true
+  },
+  {
+   "w": "case,",
+   "start": 14.897,
+   "end": 15.237,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "and",
+   "start": 15.497,
+   "end": 15.607,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "forget",
+   "start": 15.617,
+   "end": 16.117,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "how",
+   "start": 16.127,
+   "end": 16.377,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "long",
+   "start": 16.387,
+   "end": 16.757,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "things",
+   "start": 16.767,
+   "end": 17.147,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "really",
+   "start": 17.287,
+   "end": 17.637,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "took",
+   "start": 17.647,
+   "end": 17.827,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "before.",
+   "start": 17.837,
+   "end": 18.417,
+   "scene": 3,
+   "emph": false
+  },
+  {
+   "w": "The",
+   "start": 19.417,
+   "end": 19.607,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "fix?",
+   "start": 19.617,
+   "end": 20.207,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "Check",
+   "start": 20.507,
+   "end": 20.797,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "your",
+   "start": 20.807,
+   "end": 20.977,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "past.",
+   "start": 20.987,
+   "end": 21.659,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "See",
+   "start": 21.959,
+   "end": 22.149,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "how",
+   "start": 22.159,
+   "end": 22.359,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "long",
+   "start": 22.369,
+   "end": 22.789,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "similar",
+   "start": 22.799,
+   "end": 23.179,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "tasks",
+   "start": 23.189,
+   "end": 23.649,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "actually",
+   "start": 23.659,
+   "end": 24.169,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "took,",
+   "start": 24.179,
+   "end": 24.529,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "then",
+   "start": 24.759,
+   "end": 24.979,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "add",
+   "start": 24.989,
+   "end": 25.329,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "a",
+   "start": 25.339,
+   "end": 25.409,
+   "scene": 4,
+   "emph": false
+  },
+  {
+   "w": "buffer.",
+   "start": 25.419,
+   "end": 25.927,
+   "scene": 4,
+   "emph": true
+  },
+  {
+   "w": "Plan",
+   "start": 26.927,
+   "end": 27.217,
+   "scene": 5,
+   "emph": false
+  },
+  {
+   "w": "with",
+   "start": 27.227,
+   "end": 27.377,
+   "scene": 5,
+   "emph": false
+  },
+  {
+   "w": "history,",
+   "start": 27.387,
+   "end": 28.067,
+   "scene": 5,
+   "emph": true
+  },
+  {
+   "w": "not",
+   "start": 28.077,
+   "end": 28.337,
+   "scene": 5,
+   "emph": false
+  },
+  {
+   "w": "hope.",
+   "start": 28.347,
+   "end": 28.804,
+   "scene": 5,
+   "emph": true
+  }
+ ],
+ "scenes": [
+  {
+   "scene": 1,
+   "start": 0.2,
+   "end": 3.295
+  },
+  {
+   "scene": 2,
+   "start": 4.294666666666666,
+   "end": 10.696
+  },
+  {
+   "scene": 3,
+   "start": 11.695999999999998,
+   "end": 18.417
+  },
+  {
+   "scene": 4,
+   "start": 19.417333333333332,
+   "end": 25.927
+  },
+  {
+   "scene": 5,
+   "start": 26.926666666666666,
+   "end": 28.804
+  }
+ ],
+ "duration": 28.804,
+ "voice": "hm_psi"
+}

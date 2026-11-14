@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Poppins';font-weight:600;src:url(/assets/fonts/Poppins-Bold.ttf)}
+@font-face{font-family:'Poppins';font-weight:700;src:url(/assets/fonts/Poppins-Bold.ttf)}
+@font-face{font-family:'Poppins';font-weight:800;src:url(/assets/fonts/Poppins-Bold.ttf)}
+html,body{margin:0;padding:0;background:#000;overflow:hidden;font-family:'Poppins',sans-serif}
+#root{position:relative;overflow:hidden;background:#0b1020;--accent:#ffd23f;--text:#fff;--alert:#ff4d4d;--ok:#2fe08a;--panel:rgba(14,20,38,.88);--bg1:#16244a;--bg2:#05070f}
+#stage canvas{display:block;position:absolute;left:0;top:0}
+.abs{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none}
+#grain{mix-blend-mode:overlay}#dark{background:radial-gradient(ellipse at 50% 40%,var(--bg1) 0%,var(--bg2) 100%);opacity:0}
+#fade{background:#000;opacity:0}#flash{background:#fff;opacity:0}
+#cap{position:absolute;left:8%;width:84%;top:var(--capy);height:300px;display:flex;flex-wrap:wrap;justify-content:center;align-content:center;text-align:center;font-weight:800;font-size:var(--capsize);line-height:1.12;letter-spacing:-.5px;text-shadow:0 5px 14px rgba(0,0,0,.75),0 0 3px rgba(0,0,0,.9);-webkit-text-stroke:1.5px rgba(0,0,0,.35)}
+#cap span{display:inline-block;transform-origin:50% 70%;margin:0 .16em}
+.lighttext #cap{text-shadow:0 3px 10px rgba(255,255,255,.8);-webkit-text-stroke:0}
+#ring{position:absolute;border-radius:50%;border:5px solid var(--accent);box-shadow:0 0 28px 6px rgba(255,210,63,.45);transform:translate(-50%,-50%);opacity:0}
+#ov{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;color:var(--text)}
+em{color:var(--accent);font-style:normal}
+.ov-title{position:absolute;left:50%;text-align:center;width:94%}
+.ov-title span{display:block;font-weight:800;line-height:1;text-shadow:0 8px 30px rgba(0,0,0,.45)}
+.ov-title .l0{font-size:170px;color:var(--accent)}.ov-title .l1{font-size:170px;color:var(--text)}.ov-title .small{font-size:62px;letter-spacing:14px;color:var(--text);font-weight:700}
+.ov-title .rule{width:520px;height:8px;background:var(--accent);margin:26px auto 0;border-radius:4px}
+.ov-sub{position:absolute;left:50%;transform:translateX(-50%);width:82%;text-align:center;font-size:46px;font-weight:600;line-height:1.3}
+.ov-big{position:absolute;left:50%;width:88%;text-align:center}
+.ov-big .m1{font-size:84px;font-weight:800;line-height:1.08;display:block;text-shadow:0 6px 20px rgba(0,0,0,.7)}
+.ov-big .m2{font-size:58px;font-weight:800;color:var(--accent);line-height:1.2;display:block;margin-top:16px;text-shadow:0 6px 20px rgba(0,0,0,.7)}
+.ov-stat{position:absolute;text-align:center;background:var(--panel);border:2px solid rgba(255,255,255,.14);border-radius:28px;padding:14px 36px;box-shadow:0 10px 30px rgba(0,0,0,.45);min-width:260px}
+.ov-stat b{display:block;font-size:92px;font-weight:800;line-height:1.05}.ov-stat small{display:block;font-size:26px;font-weight:700;letter-spacing:4px;opacity:.75;margin-top:2px}
+.c-accent b,.c-accent{color:var(--accent)}.c-alert b{color:var(--alert)}.c-ok b{color:var(--ok)}.c-text b{color:var(--text)}
+.ov-stat.c-accent{color:var(--text)}.ov-stat.c-accent b{color:var(--accent)}
+.toast{position:absolute;left:50%;display:flex;align-items:center;gap:20px;background:var(--panel);border:2px solid rgba(255,255,255,.14);border-radius:26px;padding:16px 30px;box-shadow:0 10px 30px rgba(0,0,0,.5);white-space:nowrap}
+.toast .chk{width:54px;height:54px;border-radius:50%;background:var(--ok);color:#06210f;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800}
+.toast b{display:block;font-size:28px;font-weight:700}.toast span{display:block;font-size:40px;font-weight:800;color:var(--accent)}
+.ov-list{position:absolute;left:9%;width:82%;font-size:54px;font-weight:700;line-height:1.25}
+.ov-list div{margin:14px 0;background:var(--panel);border-radius:22px;padding:14px 26px;display:flex;align-items:center;gap:22px}.ov-list i{width:16px;height:16px;border-radius:50%;background:var(--accent);flex:none}
+.ov-bars{position:absolute;left:8%;width:84%}
+.ov-bars .row{display:flex;align-items:center;gap:20px;margin:16px 0;font-size:38px;font-weight:700}.ov-bars .lab{width:230px;flex:none}.ov-bars .val{width:150px;text-align:right;color:var(--accent);flex:none}
+.ov-bars .trk{flex:1;height:46px;background:rgba(255,255,255,.1);border-radius:23px;overflow:hidden}.ov-bars .bar{height:100%;border-radius:23px;background:var(--accent)}
+.ov-bars .bar.c-alert{background:var(--alert)}.ov-bars .bar.c-ok{background:var(--ok)}.ov-bars .bar.c-text{background:var(--text)}
+.ov-quote{position:absolute;left:50%;width:86%;text-align:center;font-family:Georgia,serif;font-style:italic;font-size:64px;line-height:1.25}.ov-quote small{display:block;font-family:'Poppins';font-style:normal;font-size:32px;margin-top:20px;color:var(--accent)}
+.ov-end{position:absolute;left:0;top:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 45%,var(--bg1) 0%,var(--bg2) 100%)}
+.endtxt{font-size:70px;font-weight:800;text-align:center;line-height:1.25;width:86%}.endline{height:6px;background:var(--accent);border-radius:3px;margin:46px 0}
+.ov-err{position:absolute;left:5%;top:40%;width:90%;color:#ff4040;font:700 40px monospace;text-align:center;background:rgba(0,0,0,.7);padding:20px}
+.haslogo #logo{display:block}#logo{display:none;position:absolute;right:36px;top:48px;width:150px;height:150px;opacity:.9;background:var(--logo) center/contain no-repeat}
+</style></head><body>
+<div id="root">
+ <div id="stage"></div>
+ <div class="abs" id="dark"></div><div class="abs" id="vig"></div><div class="abs" id="grain"></div>
+ <div id="ring"></div><div id="ov"></div><div id="cap"></div><div id="logo"></div>
+ <div class="abs" id="flash"></div><div class="abs" id="fade"></div>
+</div>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="/engine/player.js"></script>
+</body></html>

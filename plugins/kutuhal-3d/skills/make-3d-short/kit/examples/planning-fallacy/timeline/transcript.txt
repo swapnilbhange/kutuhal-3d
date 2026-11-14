@@ -1,0 +1,10 @@
+[  0.20-  1.67] s1: How long will it take?
+[  1.97-  3.29] s1: Two hours, tops.
+[  4.29-  6.62] s2: So you plan your whole evening around it.
+[  6.92- 10.70] s2: Then reality shows up, and two hours quietly becomes five.
+[ 11.70- 13.64] s3: This is the planning fallacy.
+[ 13.94- 18.42] s3: We picture the best case, and forget how long things really took before.
+[ 19.42- 20.21] s4: The fix?
+[ 20.51- 21.66] s4: Check your past.
+[ 21.96- 25.93] s4: See how long similar tasks actually took, then add a buffer.
+[ 26.93- 28.80] s5: Plan with history, not hope.

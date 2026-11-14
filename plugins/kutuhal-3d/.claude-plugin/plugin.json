@@ -1,0 +1,10 @@
+{
+  "name": "kutuhal-3d",
+  "version": "1.1.0",
+  "description": "Kutuhal 3D: upload a script and get a finished 3D explainer Short. Claude analyses the script, then generates narration (Kokoro TTS) with word timings, a stylised low-poly three.js video, synthesised music, SFX and ambience, and word-by-word captions. 9:16 or 16:9, runs offline after setup.",
+  "author": {
+    "name": "Swapnil Bhange"
+  },
+  "license": "MIT",
+  "keywords": ["video", "shorts", "reels", "explainer", "three.js", "3d animation", "tts", "kokoro", "faceless youtube", "captions", "music", "sfx", "kutuhal"]
+}
