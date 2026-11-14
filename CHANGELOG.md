@@ -5,6 +5,7 @@
 - New guide `docs/OTHER-AI-TOOLS.md`; `AGENTS.md` and `GEMINI.md` for agents that open the repo as a workspace.
 - `docs/PUBLISHING.md` and `scripts/set-github-user.sh` for publishing your own copy.
 - `make-3d-short/SKILL.md` gained a tool-mapping table for non-Claude agents.
+- The bundled example no longer ships `narration.wav` or `preview_540p.mp4` (the plugin folder now holds only text, image and font files, as the Claude directory requires). Regenerate the narration with `tools/narrate.py`; the finished videos are in `samples/` and the release assets.
 
 ## 1.0.0 – 2026-11-14
 First public release of **Kutuhal 3D**.

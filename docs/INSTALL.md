@@ -155,6 +155,7 @@ python3 tools/doctor.py --install     # pip + npm install, reports anything miss
 ```bash
 cd <studio>
 cp -r examples/planning-fallacy projects/
+python3 tools/narrate.py --project projects/planning-fallacy               # generates the narration audio (downloads the voice model on first run)
 node render.mjs --project projects/planning-fallacy --sheet --scale 0.5   # contact sheet in ~1 min
 node render.mjs --project projects/planning-fallacy --scale 0.5           # 540p preview video
 python3 audio/mix.py --project projects/planning-fallacy --video projects/planning-fallacy/build/preview.mp4
