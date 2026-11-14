@@ -5,8 +5,6 @@ description: >
   "show me a contact sheet", "preview the short", "render the video", "render in 1080p / 9:16 / 16:9",
   "re-render after a fix", or "export the final MP4" for a Kutuhal 3D project. It writes or repairs
   scene modules with contact-sheet QC, renders the frames, mixes the sound and muxes the final MP4.
-metadata:
-  version: "1.0.0"
 ---
 
 # /render-short: scenes → QC → render → mix → MP4

@@ -110,6 +110,7 @@ async function boot() {
   Object.defineProperty(X, 'safeLift', { get: () => E.lift });
 
   /* ---------- load project scene modules ---------- */
+  // Local only: the manifest lists this project's own scene files, served by render.mjs on 127.0.0.1. No remote code is fetched or run.
   const manifest = await fetchJSON('/__manifest', []);
   for (const m of manifest) { try { await import(m + '?v=' + Date.now()); } catch (e) { console.log('ERROR scene import ' + m + ': ' + e.message); window.IMPORT_ERRORS = (window.IMPORT_ERRORS || []).concat(m + ': ' + e.message); } }
 

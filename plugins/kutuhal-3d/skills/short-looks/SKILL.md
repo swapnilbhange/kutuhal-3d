@@ -5,8 +5,6 @@ description: >
   looks", "pick a visual style", "make it warmer / darker / more neon", "change the colour grade" or "create a
   custom style" for a Kutuhal 3D project. It renders the same frames in five presets (midnight, ember,
   arctic, neon, pastel) as a comparison grid, records the choice in config.json, and builds custom styles.
-metadata:
-  version: "1.0.0"
 ---
 
 # /short-looks: style presets and custom looks

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/icon.png" alt="Kutuhal 3D icon" width="110"/>
+
 # Kutuhal 3D
 
 ### Upload a script. Get a finished 3D explainer Short.

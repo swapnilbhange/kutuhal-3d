@@ -7,8 +7,6 @@ description: >
   Reel / TikTok", "animate this explainer", or "do the whole video". It runs the full pipeline: script analysis,
   generated narration (Kokoro TTS) with word timings, a stylised low-poly three.js 3D storyboard, rendering in
   9:16 or 16:9, synthesised music, SFX and ambience, word-by-word captions and the final MP4 with SRT.
-metadata:
-  version: "1.0.0"
 ---
 
 # Kutuhal 3D · make-3d-short: script → analysis → narration → 3D video → music & SFX → MP4

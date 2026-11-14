@@ -5,8 +5,6 @@ description: >
   "analyse my script", "generate the narration and timings", "plan the shots for my script", or "set up the
   project" in the Kutuhal 3D studio. It covers intake, studio install, project creation, script
   analysis (script.json, bible), Kokoro narration with word timings, and the draft shot list.
-metadata:
-  version: "1.0.0"
 ---
 
 # /new-short: intake → install → analysis → narration → shot plan

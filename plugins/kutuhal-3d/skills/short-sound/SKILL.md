@@ -5,8 +5,6 @@ description: >
   "change the music mood", "the music is too loud/quiet", "use my own music", "remix the audio" or "redo the
   soundtrack" for a Kutuhal 3D project. It plans mood-based generated music, SFX and ambience cues in
   story/shots.json, mixes them under the narration with ducking and loudness normalisation, and re-muxes the MP4.
-metadata:
-  version: "1.0.0"
 ---
 
 # /short-sound: music, SFX, ambience, mix
