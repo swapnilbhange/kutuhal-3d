@@ -179,7 +179,7 @@ kutuhal-3d/
 ├─ dist/                        ← ready-to-upload kutuhal-3d.plugin and kutuhal-3d.zip
 ├─ AGENTS.md · GEMINI.md        ← lets other AI agents discover the pipeline when the repo is opened as a workspace
 ├─ docs/                        ← INSTALL · OTHER-AI-TOOLS · USAGE · SCRIPT-GUIDE · PROMPTS · ARCHITECTURE · CUSTOMIZING · TROUBLESHOOTING · FAQ
-├─ samples/                     ← sample video (1080p + preview), GIF, stills, contact sheet, style grid, script, captions, plan
+├─ samples/                     ← sample preview video (the 1080p video is attached to the release), GIF, stills, contact sheet, style grid, script, captions, plan
 ├─ plugins/kutuhal-3d/          ← the plugin (skills + studio kit + references + example project)
 ├─ .claude-plugin/marketplace.json   ← makes the repo installable with /plugin marketplace add
 ├─ scripts/build-dist.sh        ← rebuilds dist/ after you change the plugin
